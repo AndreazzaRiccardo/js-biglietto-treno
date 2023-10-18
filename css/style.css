@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+h1 {
+    border: 1px solid black;
+    color: red;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    min-height: 100px;
+    align-items: center;
+}
+
+p {
+    font-weight: bolder;
+}
