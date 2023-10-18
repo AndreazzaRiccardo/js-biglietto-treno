@@ -8,11 +8,13 @@ body {
     width: 80%;
     margin: 200px auto;
     text-align: center;
+    background-color: lightgrey;
 }
 
 h1 {
     border: 1px solid black;
     color: red;
+    line-height: 50px;
 }
 
 div {
