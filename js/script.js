@@ -9,6 +9,7 @@ if (userKm > 800) {
 }
 
 const userAge = parseInt(prompt("Quanti anni hai?"));
+let messageAge = ""
 if (userAge > 110) {
     messageAge = `${userAge} anni?!? Ma non dovresti essere già morto??`;
 } else {
@@ -17,4 +18,14 @@ if (userAge > 110) {
 
 console.log(messageAge, messageKm);
 
+const priceForKm = 0.21
+const ticketPrice = messageKm * priceForKm
+let messagePrice =""
 
+if (isNaN(ticketPrice)) {
+    messagePrice = "Ci dispiace, ma non possiamo effettuare un calcolo"
+} else {
+    messagePrice = ticketPrice.toFixed(2)
+}
+
+console.log(messagePrice);
